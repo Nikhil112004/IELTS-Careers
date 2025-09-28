@@ -13,8 +13,8 @@ const Footer = () => {
             Your partner in acing the IELTS exam.
           </p>
         </div>
-        
-        <div>
+
+        <div className='text-center'>
           <h3 className="font-semibold text-lg text-slate-900 dark:text-white">Navigation</h3>
           <nav className="mt-3 flex flex-col gap-2 text-center sm:text-left">
             <a href="#home" className="text-sm sm:text-base text-slate-600 hover:text-primary dark:text-slate-400 dark:hover:text-primary">Home</a>
@@ -24,7 +24,7 @@ const Footer = () => {
           </nav>
         </div>
 
-        <div>
+        <div className='text-center'>
           <h3 className="font-semibold text-lg text-slate-900 dark:text-white">Resources</h3>
           <nav className="mt-3 flex flex-col gap-2 text-center sm:text-left">
             <a href="#" className="text-sm sm:text-base text-slate-600 hover:text-primary dark:text-slate-400 dark:hover:text-primary">Blog</a>
@@ -38,13 +38,13 @@ const Footer = () => {
           <h3 className="font-semibold text-lg text-slate-900 dark:text-white">Follow Us</h3>
           <div className="mt-3 flex justify-center sm:justify-start gap-3">
        
-            <a className="text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-primary" href="#">
+            <a className="text-slate-900 hover:text-primary dark:text-slate-900 dark:hover:text-primary" href="#">
               <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M22.675 0h-21.35c-.732 0-1.325..."></path>
               </svg>
             </a>
         
-            <a className="text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-primary" href="#">
+            <a className="text-slate-700 hover:text-primary dark:text-slate-700 dark:hover:text-primary" href="#">
               <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M24 4.557c-.883.392-1.832..."></path>
               </svg>
