@@ -4,10 +4,10 @@ const Courses = () => {
     return (
         <div id='courses' className='pt-20'>
             <div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-center text-slate-900 dark:text-white pt-10">Our Courses</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-slate-900 dark:text-white pt-10">Our Courses</h2>
             <p className=" text-base sm:text-lg md:text-xl text-center mt-4 text-slate-600 dark:text-slate-400 max-w-xl sm:max-w-2xl mx-auto">Tailored programs designed to meet your specific IELTS needs, whether for <br /> academic, professional, or immigration purposes.</p>
         </div>
-        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-4 pt-20 justify-center'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center pt-16'>
         <Cards />
         <Cards />
         <Cards />
