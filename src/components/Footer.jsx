@@ -22,7 +22,7 @@ const Footer = () => {
            </div>
            <div>
            <h3 className="font-semibold text-lg text-slate-900 dark:text-white">Resources</h3>
-           <nav className="mt-4 flex flex-col gap-3">
+           <nav className="mt-4 flex flex-col gap-2">
            <a className="text-base text-slate-600 hover:text-primary dark:text-slate-400 dark:hover:text-primary" href="#">Blog</a>
            <a className="text-base text-slate-600 hover:text-primary dark:text-slate-400 dark:hover:text-primary" href="#">FAQs</a>
            <a className="text-base text-slate-600 hover:text-primary dark:text-slate-400 dark:hover:text-primary" href="#testimonials">Testimonials</a>
@@ -56,5 +56,5 @@ const Footer = () => {
         </div>
     )
 }
-
+ 
 export default Footer;
