@@ -7,7 +7,7 @@ const Courses = () => {
             <h2 className=" flex justify-center pt-10 text-4xl sm:text-5xl font-bold tracking-tight text-slate-900 dark:text-white">Our Courses</h2>
             <p className=" flex justify-center pt-1 text-center mt-4 text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">Tailored programs designed to meet your specific IELTS needs, whether for <br /> academic, professional, or immigration purposes.</p>
         </div>
-        <div className='flex gap-4 pt-20 justify-center'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-4 pt-20 justify-center'>
         <Cards />
         <Cards />
         <Cards />

@@ -4,7 +4,7 @@ const HeroSection = () => {
     return (
        <div>
                <div className='relative w-full'>
-                    <img alt='/' src={HeroImage} className='w-full h-[35rem] sm:h-[45rem] lg:h-[50rem] object-cover'/>
+                    <img alt='/' src={HeroImage} className='w-[auto] h-[35rem] sm:h-[45rem] lg:h-[50rem] object-cover'/>
                 <div className='absolute inset-0 pb-80 items-center flex flex-col text-center justify-center'>
                     <h1 class=" pt-35 sm:text-4xl md:text-5xl flex justify-center text-center text-5xl  lg:text-6xl  xl:text-7xl font-extrabold tracking-tight text-gray-200 dark:text-white">
                       Your Gateway to <br /> Global Opportunities
