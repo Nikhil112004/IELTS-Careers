@@ -4,7 +4,7 @@ const Courses = () => {
   return (
     <div id='courses' className='pt-20 px-4 sm:px-8 lg:px-16'>
       <div>
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-slate-900 dark:text-white pt-10">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-slate-900 dark:text-slate-900 pt-10">
           Our Courses
         </h2>
         <p className="text-base sm:text-lg md:text-xl text-center mt-4 text-slate-600 dark:text-slate-400 max-w-xl sm:max-w-2xl mx-auto">

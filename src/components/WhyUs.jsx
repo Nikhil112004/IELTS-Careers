@@ -3,7 +3,7 @@ const WhyUs = () => {
     return(
         <div className="pt-20">
          <div>
-            <h2 className="flex justify-center pt-10 text-4xl sm:text-5xl font-bold tracking-tight text-slate-900 dark:text-white">Why Choose Us?</h2>
+            <h2 className="flex justify-center pt-10 text-4xl sm:text-5xl font-bold tracking-tight text-slate-900 dark:text-slate-900">Why Choose Us?</h2>
             <p className=" flex justify-center pt-1 text-center mt-4 text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">We provide a comprehensive and supportive learning environment to help you <br />achieve your best possible IELTS score.</p>
         </div>
         <div className="flex flex-wrap gap-6 justify-center pt-20">
